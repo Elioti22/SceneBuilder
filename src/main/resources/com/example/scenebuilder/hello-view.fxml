@@ -49,17 +49,17 @@
       </ImageView>
       <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="206.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@token-conflict-peace.png" />
+            <Image url="@../../../images/tokens/token-conflict-peace.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="300.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@token-conflict-peace.png" />
+            <Image url="@../../../images/tokens/token-conflict-peace.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="254.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@token-conflict-peace.png" />
+            <Image url="@../../../images/tokens/token-conflict-peace.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="400.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
