@@ -168,7 +168,7 @@
             <Image url="@../../../images/wonders/ephese/back/wonder-ephese-back-removebg.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="165.0" fitWidth="204.0" layoutX="81.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+      <ImageView fitHeight="165.0" fitWidth="204.0" layoutX="93.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
          <image>
             <Image url="@../../../images/wonders/babylon/Back/wonder-babylon-back-removebg.png" />
          </image>
@@ -200,7 +200,7 @@
       </ImageView>
       <ImageView fitHeight="165.0" fitWidth="204.0" layoutX="609.0" layoutY="517.0" pickOnBounds="true" preserveRatio="true" rotate="-28.1">
          <image>
-            <Image url="@../../../images/wonders/halicarnasse/back/wonder-halicarnasse-back-removebg.png" />
+            <Image url="@../../../images/wonders/olympie/front/back/wonder-olympie-back-removebg.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="99.0" fitWidth="80.0" layoutX="508.0" layoutY="605.0" pickOnBounds="true" preserveRatio="true" rotate="-14.9">
@@ -223,7 +223,7 @@
             <Image url="@logo-7wonders.png" />
          </image>
       </ImageView>
-      <Label layoutX="842.0" layoutY="776.0" prefHeight="81.0" prefWidth="167.0" text="©SilveiraMartinez">
+      <Label layoutX="847.0" layoutY="785.0" prefHeight="81.0" prefWidth="167.0" text="©SilveiraMartinez">
          <font>
             <Font size="16.0" />
          </font>
