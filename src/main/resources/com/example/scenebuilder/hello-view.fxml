@@ -3,26 +3,27 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
-
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fitHeight="800.0" fitWidth="645.0" layoutX="-12.0" layoutY="-9.0">
          <image>
-            <Image url="@Capture%20d’écran%202023-01-12%20à%2012.27.30.png" />
+            <Image url="@fond-plateau.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="54.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" rotate="142.4">
+      <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="38.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../images/cards/card-material-stone-stonecutter.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="181.0" layoutX="227.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="99.0" fitWidth="181.0" layoutX="227.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../images/cards/card-back/card-back-question.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="507.0" layoutY="523.0" pickOnBounds="true" preserveRatio="true" rotate="-37.6">
+      <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="542.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
          <image>
             <Image url="@../../../images/cards/card-progress-law.png" />
          </image>
@@ -47,27 +48,27 @@
             <Image url="@../../../images/tokens-progress/token-ingeniery.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="206.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="206.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../images/tokens/token-conflict-peace.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="300.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="292.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../images/tokens/token-conflict-peace.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="254.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="250.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../images/tokens/token-conflict-peace.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="400.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="401.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../images/tokens/token-3-laurel-points.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="382.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true" rotate="-121.9">
+      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="410.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" rotate="-121.9">
          <image>
             <Image url="@../../../images/tokens/token-3-laurel-points.png" />
          </image>
@@ -77,7 +78,7 @@
             <Image url="@../../../images/tokens/token-3-laurel-points.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="452.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true" rotate="-88.3">
+      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="459.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true" rotate="-88.3">
          <image>
             <Image url="@../../../images/tokens/token-3-laurel-points.png" />
          </image>
@@ -92,7 +93,7 @@
             <Image url="@../../../images/tokens/token-3-laurel-points.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="474.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true" rotate="43.5">
+      <ImageView fitHeight="70.0" fitWidth="43.0" layoutX="475.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true" rotate="43.5">
          <image>
             <Image url="@../../../images/tokens/token-3-laurel-points.png" />
          </image>
@@ -107,19 +108,32 @@
             <Image url="@../../../images/tokens/token-3-laurel-points.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="86.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="75.0" fitWidth="30.0" layoutX="231.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../images/tokens/token-cat.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="165.0" fitWidth="204.0" layoutX="238.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="165.0" fitWidth="204.0" layoutX="246.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
          <image>
-            <Image url="@Capture_d_Ã©cran_2023-01-12_Ã%C2%A0_10.39.05-removebg-preview.png" />
+            <Image url="@../../../images/wonders/babylon/Back/wonder-babylon-back-removebg.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="177.0" fitWidth="177.0" layoutX="251.0" layoutY="569.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="177.0" fitWidth="177.0" layoutX="250.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Capture_d_Ã©cran_2023-01-12_Ã%C2%A0_10.46.24-removebg-preview.png" />
+            <Image url="@../../../images/wonders/alexandrie/back/wonder-alexandrie-back.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8e8f5" height="97.0" layoutX="301.0" layoutY="321.0" opacity="0.46" stroke="BLACK" strokeType="INSIDE" width="68.0" />
+      <Line endX="-38.0" endY="105.0" layoutX="406.0" layoutY="313.0" startX="-101.0" startY="9.0" strokeType="OUTSIDE" />
+      <Line endX="-49.72956085205078" endY="109.12260437011719" layoutX="406.0" layoutY="313.0" rotate="55.8" startX="-90.54258728027344" startY="1.2523748874664307" strokeType="OUTSIDE" />
+      <ImageView fitHeight="177.0" fitWidth="177.0" layoutX="542.0" layoutY="539.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/_7WondersArchitect-master/src/main/resources/images/decks/deck-alexandrie.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="177.0" fitWidth="177.0" layoutX="72.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/_7WondersArchitect-master/src/main/resources/images/decks/deck-babylone.png" />
          </image>
       </ImageView>
    </children>

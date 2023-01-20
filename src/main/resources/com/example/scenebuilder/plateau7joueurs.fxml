@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="975.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="975.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.scenebuilder.HelloController">
    <children>
       <ImageView fitHeight="858.0" fitWidth="1033.0" layoutX="-57.0" layoutY="-14.0">
          <image>
@@ -18,7 +18,7 @@
             <Image url="@../../../images/cards/card-back/card-back-question.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="728.0" layoutY="454.0" pickOnBounds="true" preserveRatio="true" rotate="-54.0">
+      <ImageView fx:id="cartewonder6" fitHeight="99.0" fitWidth="77.0" layoutX="739.0" layoutY="446.0" onMouseClicked="#Baaaw" pickOnBounds="true" preserveRatio="true" rotate="285.0">
          <image>
             <Image url="@../../../images/cards/card-progress-law.png" />
          </image>
@@ -183,17 +183,17 @@
             <Image url="@../../../images/wonders/alexandrie/back/wonder-alexandrie-back.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="754.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+      <ImageView fx:id="cartewonder7" fitHeight="99.0" fitWidth="77.0" layoutX="754.0" layoutY="236.0" onMouseClicked="#Baaaw" pickOnBounds="true" preserveRatio="true" rotate="270.0">
          <image>
             <Image url="@../../../images/cards/card-material-glass-women.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="142.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+      <ImageView fx:id="cartewonder2" fitHeight="99.0" fitWidth="77.0" layoutX="142.0" layoutY="256.0" onMouseClicked="#Baaaw" pickOnBounds="true" preserveRatio="true" rotate="90.0">
          <image>
             <Image url="@../../../images/cards/card-politic-emperor-3laurel.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="142.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true" rotate="54.2">
+      <ImageView fx:id="cartewonder3" fitHeight="99.0" fitWidth="77.0" layoutX="129.0" layoutY="546.0" onMouseClicked="#Baaaw" pickOnBounds="true" preserveRatio="true" rotate="60.0">
          <image>
             <Image url="@../../../images/cards/card-war-archer-2corns.png" />
          </image>
@@ -203,22 +203,17 @@
             <Image url="@../../../images/wonders/olympie/front/back/wonder-olympie-back-removebg.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="80.0" layoutX="508.0" layoutY="605.0" pickOnBounds="true" preserveRatio="true" rotate="-14.9">
+      <ImageView fx:id="cartewonder5" fitHeight="99.0" fitWidth="80.0" layoutX="545.0" layoutY="586.0" onMouseClicked="#Baaaw" pickOnBounds="true" preserveRatio="true" rotate="330.0">
          <image>
             <Image url="@../../../images/cards/card-material-gold-vizir.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="294.0" layoutY="608.0" pickOnBounds="true" preserveRatio="true" rotate="15.0">
+      <ImageView fx:id="cartewonder4" fitHeight="99.0" fitWidth="77.0" layoutX="317.0" layoutY="612.0" onMouseClicked="#Baaaw" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../images/cards/card-material-paper-women.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="77.0" layoutX="139.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
-         <image>
-            <Image url="@../../../images/cards/card-progress-architect.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="329.0" fitWidth="445.0" layoutX="263.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="329.0" fitWidth="445.0" layoutX="255.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@logo-7wonders.png" />
          </image>
@@ -228,5 +223,10 @@
             <Font size="16.0" />
          </font>
       </Label>
+      <ImageView fx:id="cartewonder1" fitHeight="102.0" fitWidth="74.0" layoutX="151.0" layoutY="15.0" onMouseClicked="#Baaaw" rotate="90.0">
+         <image>
+            <Image url="@../../../images/cards/card-progress-architect.png" />
+         </image>
+      </ImageView>
    </children>
 </Pane>
